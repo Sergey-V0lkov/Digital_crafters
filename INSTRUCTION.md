@@ -8,7 +8,8 @@
  
 ## Шаг 2
 
-Разархивируем 
+Разархивируем
+
 ![Screenshot_2](https://github.com/user-attachments/assets/26209320-9fa8-4db9-b1d3-761c1ad56f43)
 
 
