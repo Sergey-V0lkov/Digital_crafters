@@ -2,7 +2,7 @@
 
 
 
-# :alien: :sparkles: :thumbsup: Проект по верстке Digital_crafters :alien: :sparkles: :thumbsup:
+#  :thumbsup: :sparkles: :alien: Проект по верстке Digital_crafters :alien: :sparkles: :thumbsup:
 
 
 
