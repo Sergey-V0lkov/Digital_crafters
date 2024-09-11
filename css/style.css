@@ -1,0 +1,835 @@
+@charset "UTF-8";
+body {
+  color: #fff;
+  overflow-x: hidden;
+  /*это нужно что бы анимация не мешала скролу(прокрутке)*/
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+header {
+  min-height: 1010px;
+  background-color: #171818;
+}
+
+header .nav {
+  display: inline-block;
+}
+
+header .nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  /*убираем маркеры*/
+}
+
+header .nav ul li {
+  float: left;
+}
+
+header .nav ul li a {
+  text-transform: uppercase;
+  /*делает текст капсом*/
+  color: #fff;
+  font-size: 14px;
+  padding: 0 15px;
+  display: block;
+  /*делаем блоком*/
+  font-family: 'Poppins-Bold';
+  cursor: pointer;
+}
+
+header .nav ul li a:hover {
+  color: #fff;
+}
+
+header .center {
+  display: inline-block;
+  padding-left: 130px;
+}
+
+header .center .digital {
+  background-image: url(../img/icon.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  font-size: 22px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Oswald-BoldItalic';
+  display: inline-block;
+  line-height: 72px;
+}
+
+header .ots {
+  padding: 45px 95px 0 80px;
+}
+
+header .knop {
+  display: inline-block;
+  float: right;
+}
+
+header .knop .request {
+  border: 2px #fff solid;
+  width: 200px;
+  text-align: center;
+  padding: 13px 0;
+  margin-top: 5px;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+header .knop .request a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Poppins-Bold';
+  text-decoration: none;
+}
+
+/*_______________________________________________________*/
+.zag {
+  padding: 190px 0 0 0;
+}
+
+.zag .gre {
+  color: #a7a8a8;
+}
+
+.zag h2 {
+  font-size: 24px;
+  text-align: center;
+  line-height: 42px;
+  font-family: 'Poppins-Bold';
+  color: #fff;
+}
+
+.zag h1 {
+  font-size: 76px;
+  text-align: center;
+  font-family: 'Poppins-SemiBold';
+  color: #fff;
+}
+
+.cent {
+  padding: 50px 0 210px 0;
+}
+
+.cent .gradient {
+  margin: 0 auto;
+  background-image: linear-gradient(to left, #282929, #444444);
+  height: 145px;
+  border-radius: 78px;
+  padding: 20px;
+}
+
+.cent .gradient a {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  background-color: #12cf6a;
+  border-radius: 78px;
+  display: block;
+  padding: 34px;
+  font-family: 'Poppins-Bold';
+  text-decoration: none;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.s_rewview {
+  background-color: #f4f8fc;
+  /*
+	.fon{
+		background-image: url(../img/mac.png);
+		background-repeat: no-repeat;
+		height: 460px;
+		background-position: center center;
+
+		} */
+}
+
+section.s_rewview .zagol h3 {
+  color: #12cf6a;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 140px;
+  font-family: 'Poppins-Bold';
+}
+
+section.s_rewview .zagol h2 {
+  color: #171818;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-family: 'Poppins-Medium';
+}
+
+section.s_rewview .text {
+  padding-bottom: 40px;
+}
+
+section.s_rewview .text span {
+  color: #171818;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Poppins-Light';
+}
+
+section.s_rewview .line {
+  text-align: center;
+  border-top: 3px solid #dcdddd;
+  width: 70px;
+  padding-bottom: 45px;
+}
+
+section.s_rewview .vis {
+  padding-top: 15px;
+}
+
+section.s_rewview .vis .uz {
+  padding: 0 40px;
+}
+
+section.s_rewview .vis .uz .button2 {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  background-color: #12cf6a;
+  border-radius: 78px;
+  display: block;
+  padding: 28px;
+  font-family: 'Poppins-Bold';
+  text-decoration: none;
+  -webkit-box-shadow: 0px 22px 22px 0px rgba(46, 50, 50, 0.29);
+  -moz-box-shadow: 0px 22px 22px 0px rgba(46, 50, 50, 0.29);
+  box-shadow: 0px 22px 22px 0px rgba(46, 50, 50, 0.29);
+}
+
+section.s_rewview .ff {
+  background-image: url(../img/ff.png);
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+section.s_rewview .ff .bot {
+  padding: 79px 0 0 0;
+}
+
+section.s_rewview .ff .bot .fonno {
+  background-color: #fff;
+  padding: 0;
+  margin-top: 65px;
+}
+
+section.s_rewview .ff .bot .fonno .circle2 {
+  background-color: #12cf6a;
+  height: 130px;
+  width: 130px;
+  border-radius: 65px 65px;
+  position: active;
+  display: inline-block;
+  margin-top: -65px;
+}
+
+section.s_rewview .ff .bot .fonno .pad {
+  padding: 0 80px;
+}
+
+section.s_rewview .ff .bot .fonno .pad p {
+  color: #171818;
+  text-align: center;
+  line-height: 35px;
+  padding-top: 30px;
+  font-family: 'Poppins-Light';
+}
+
+section.s_rewview .ff .bot .fonno .spa {
+  padding: 13px 0 75px 0;
+  font-size: 17px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+section.s_rewview .ff .bot .fonno .spa .gree {
+  color: #12cf6a;
+  text-align: right;
+  padding: 0 2px 0 0;
+  font-family: 'Poppins-Bold';
+}
+
+section.s_rewview .ff .bot .fonno .spa .bla {
+  text-align: left;
+  padding: 0;
+  font-family: 'Poppins-Bold';
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.zelen {
+  background-color: #12cf6a;
+}
+
+section.zelen .vis {
+  padding: 140px 0;
+}
+
+section.zelen .vis .our {
+  color: #fff;
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 35px;
+  font-family: 'Poppins-Medium';
+}
+
+section.zelen .vis .line {
+  border-top: 3px solid #fff;
+  width: 70px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+section.zelen .vis .do {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 43px;
+  line-height: 35px;
+  font-family: 'Poppins-Light';
+}
+
+section.zelen .vis .block {
+  background-color: #f4fcfc;
+  color: #171818;
+  margin-top: 100px;
+  padding: 0 40px 45px 40px;
+  box-shadow: -1px 20px 36px -4px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: -1px 20px 36px -4px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -1px 20px 36px -4px rgba(0, 0, 0, 0.37);
+  border-radius: 5px;
+}
+
+section.zelen .vis .block .krug1, section.zelen .vis .block .krug2, section.zelen .vis .block .krug3, section.zelen .vis .block .krug4, section.zelen .vis .block .krug5 {
+  display: inline-block;
+  background-color: #fff;
+  width: 108px;
+  height: 108px;
+  margin-top: -54px;
+  position: active;
+  border-radius: 64px;
+}
+
+section.zelen .vis .block .krug1 {
+  background-image: url(../img/znach1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section.zelen .vis .block .krug2 {
+  background-image: url(../img/znach2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section.zelen .vis .block .krug3 {
+  background-image: url(../img/znach3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section.zelen .vis .block .krug4 {
+  background-image: url(../img/znach4.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section.zelen .vis .block .krug5 {
+  background-image: url(../img/znach5.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section.zelen .vis .block .pip {
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  font-family: 'Poppins-SemiBold';
+}
+
+section.zelen .vis .block .pip2 {
+  padding-bottom: 25px;
+}
+
+section.zelen .vis .block p {
+  font-size: 17px;
+  margin: 0;
+  line-height: 29px;
+  font-family: 'Poppins-Light';
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.cos {
+  background-color: #fefffe;
+  background-image: url(../img/koc.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.cos .vis {
+  padding: 140px 0;
+}
+
+.cos .vis .our {
+  color: #171818;
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 35px;
+  font-family: 'Poppins-Medium';
+}
+
+.cos .vis .line {
+  border-top: 3px solid #dcdddd;
+  width: 70px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.cos .vis .do {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 43px;
+  line-height: 35px;
+  color: #171818;
+  font-family: 'Poppins-Light';
+}
+
+.cos .vis .review_item1 .right {
+  background-color: #fff;
+  padding: 0 40px;
+  border-left: 2px solid #dee1e4;
+}
+
+.cos .vis .review_item1 .right .circle {
+  height: 76px;
+  width: 76px;
+  background-color: #12cf6a;
+  border-radius: 50px;
+  margin: 65px 0 33px 0;
+  background-image: url(../img/mol.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cos .vis .review_item1 .right h2 {
+  color: #171818;
+  font-size: 24px;
+  padding-bottom: 16px;
+  font-family: 'Poppins-SemiBold';
+}
+
+.cos .vis .review_item1 .right span {
+  color: #171818;
+  font-size: 17px;
+  line-height: 35px;
+  font-family: 'Poppins-Light';
+}
+
+.cos .vis .review_item1 .right ul {
+  margin: 0px;
+  padding: 72px 0 0 0;
+  list-style-type: none;
+  /*убираем маркеры*/
+}
+
+.cos .vis .review_item1 .right ul li {
+  float: left;
+  padding: 0 5px 65px 0;
+}
+
+.cos .vis .review_item1 .right ul li a {
+  display: block;
+  /*делаем блоком*/
+  color: #171818;
+  border: 1px #d7dbe0 solid;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 2px 12px;
+  font-size: 11px;
+  border-radius: 21px;
+  font-weight: bold;
+  font-family: 'Poppins-SemiBold';
+}
+
+.shadow {
+  margin: 15px 15px 30px 15px;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 26px 30px 0px #2e3232;
+  -moz-box-shadow: 3px 26px 30px 0px #2e3232;
+  box-shadow: 3px 26px 30px 0px #2e3232;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+footer {
+  background-color: #171818;
+  background-image: url(../img/hren2.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+footer .fon {
+  background-image: url(../img/hren.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+footer h2.our {
+  text-align: center;
+  font-size: 42px;
+  padding: 110px 0 33px 0;
+  font-family: 'Poppins-SemiBold';
+}
+
+footer .line {
+  border-top: 3px solid #fff;
+  width: 70px;
+  margin: 0;
+  padding: 0 0 30px 10px;
+}
+
+footer form {
+  font-family: 'FontAwesome';
+}
+
+footer input {
+  text-indent: 21px;
+  background: transparent;
+  border: 2px solid #515252;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+footer input:focus {
+  outline: none;
+}
+
+footer .name, footer .email {
+  height: 60px;
+  width: 616px;
+  margin-left: 10px;
+}
+
+footer .comment {
+  height: 215px;
+  width: 616px;
+  margin-left: 10px;
+}
+
+footer .vis {
+  padding-top: 15px;
+}
+
+footer .vis .uz {
+  padding: 35px 40px 135px 40px;
+}
+
+footer .vis .uz .button2 {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  background-color: #12cf6a;
+  border-radius: 78px;
+  display: block;
+  padding: 28px;
+  font-family: 'Poppins-Bold';
+  text-decoration: none;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  /*убираем маркеры*/
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  text-transform: uppercase;
+  /*делает текст капсом*/
+  color: #fff;
+  font-size: 14px;
+  padding: 0 0 0 30px;
+  display: block;
+  /*делаем блоком*/
+  line-height: 70px;
+  /*делает текст посредине*/
+  font-family: 'Poppins-Bold';
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+
+footer ul.two {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  /*убираем маркеры*/
+}
+
+footer ul.two li {
+  float: left;
+}
+
+footer ul.two li a {
+  padding: 0 15px;
+  display: block;
+  /*делаем блоком*/
+  line-height: 70px;
+  /*делает текст посредине*/
+  font-family: 'Poppins-Bold';
+}
+
+footer .digital {
+  background-image: url(../img/icon.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+footer .digital h2 {
+  font-size: 22px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+  line-height: 75px;
+  font-family: 'Oswald-BoldItalic';
+}
+
+footer .ots {
+  padding: 15px 69px 15px 69px;
+  border-top: 1px solid #515252;
+}
+
+footer .pravo {
+  float: right;
+}
+
+.second-car .owl-carousel .owl-nav {
+  display: inline-block;
+  margin-left: 475px;
+  position: absolute;
+  margin-top: 28px;
+}
+
+.second-car .owl-carousel .owl-nav button.owl-prev {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #cdd1d5;
+  color: #000;
+  background-image: url(../img/left.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.second-car .owl-carousel .owl-nav button.owl-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #cdd1d5;
+  color: #000;
+  background-image: url(../img/right.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 110px;
+}
+
+.second-car .owl-dots {
+  display: inline-block;
+  margin-left: 547px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.second-car .owl-carousel button.owl-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #bbbfc2;
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.second-car .owl-carousel button.owl-dot.active {
+  background-color: #171818;
+}
+
+/*--------------------------------------------------------------*/
+.first-car .owl-carousel .owl-nav {
+  display: inline-block;
+  margin-left: 475px;
+  position: absolute;
+  margin-top: 39px;
+}
+
+.first-car .owl-carousel .owl-nav button.owl-prev {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #cdd1d5;
+  color: #000;
+  background-image: url(../img/left.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.first-car .owl-carousel .owl-nav button.owl-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #cdd1d5;
+  color: #000;
+  background-image: url(../img/right.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 110px;
+}
+
+.first-car .owl-dots {
+  display: inline-block;
+  margin-left: 547px;
+  position: absolute;
+  margin-top: 41px;
+}
+
+.first-car .owl-carousel button.owl-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #bbbfc2;
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.first-car .owl-carousel button.owl-dot.active {
+  background-color: #171818;
+}
+
+.first-car .owl-carousel .owl-nav button.owl-next:focus, .first-car .owl-carousel .owl-nav button.owl-prev:focus, .second-car .owl-carousel .owl-nav button.owl-next:focus, .second-car .owl-carousel .owl-nav button.owl-prev:focus {
+  outline: none;
+}
+
+.first-car .owl-carousel button.owl-dot:focus, .second-car .owl-carousel button.owl-dot:focus {
+  outline: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu .menu-btm {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.mobile-menu .menu-btm .one, .mobile-menu .menu-btm .two, .mobile-menu .menu-btm .three {
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 8px;
+}
+
+.ots .nav.menu-active {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background-color: #12cf6a;
+}
+
+.ots .nav.menu-active ul {
+  padding-top: 70px;
+}
+
+.ots .nav.menu-active ul li {
+  padding-top: 42px;
+  display: block;
+  float: none;
+}
+
+.ots .nav.menu-active ul li.one {
+  border-top: 3px solid #35d680;
+  padding-top: 55px;
+  margin: 0 32px 0 80px;
+  padding-right: 50px;
+  margin-top: 37px;
+}
+
+.ots .nav.menu-active ul li a {
+  font-size: 24px;
+  text-align: center;
+}
+
+.center.menu-active .digital {
+  position: absolute;
+  margin-top: -591px;
+  margin-left: 208px;
+}
+
+.mobile-menu.menu-active {
+  display: inline-block;
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  margin-left: 527px;
+  margin-top: -555px;
+}
+
+.mobile-menu.menu-active .two {
+  opacity: 0;
+}
+
+.mobile-menu.menu-active .one {
+  transform: rotate(45deg);
+  margin: 10px 0px 0px 1px;
+  position: absolute;
+  width: 24px;
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  border-radius: 1px;
+}
+
+.mobile-menu.menu-active .three {
+  transform: rotate(135deg);
+  margin: 1px 1px 1px 1px;
+  width: 24px;
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  border-radius: 1px;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ots.menu-active {
+  padding: 0;
+}

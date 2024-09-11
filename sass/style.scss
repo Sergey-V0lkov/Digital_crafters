@@ -1,0 +1,1023 @@
+
+
+
+// миксины для
+
+@mixin OneTopBotBlack-fon{ //действующий
+	background-color: #171818;
+}
+@mixin TwoTopBotBlue-fon{
+	background-image: linear-gradient(to top, #0e2c7a, #0b9ed3);
+}
+
+
+
+
+@mixin OneCenterGreen-fon{ //действующий
+	background-color: #12cf6a;
+}
+@mixin TwoCenterBlue-fon{
+	background-image: linear-gradient(to right, #0f3f87, #0c6eae);
+}
+
+
+
+$green-color: #12cf6a; //действующий
+$black-color: #171818;
+$blue-color: #41bfe7;
+
+
+
+
+
+body{
+	color: #fff;
+	overflow-x: hidden; /*это нужно что бы анимация не мешала скролу(прокрутке)*/
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+header{
+	min-height: 1010px;
+	@include OneTopBotBlack-fon;
+
+
+.nav{
+	display: inline-block;
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none; /*убираем маркеры*/
+
+
+	}
+
+	ul li{
+		float: left;
+	}
+
+	ul li a{
+		text-transform: uppercase; /*делает текст капсом*/
+		color: #fff;
+		font-size: 14px;
+		padding: 0 15px;
+		display: block; /*делаем блоком*/
+		font-family: 'Poppins-Bold';
+		cursor: pointer;
+	}
+
+	ul li a:hover {
+		color: #fff;
+	}
+}
+
+.center{
+	display: inline-block;
+	padding-left: 130px;
+
+	.digital{
+		
+		background-image: url(../img/icon.png);
+		background-position: left center;
+		background-repeat: no-repeat;
+		font-size: 22px;
+		padding-left: 30px;
+		text-transform: uppercase;
+		color: #fff;
+		font-family: 'Oswald-BoldItalic';
+		display: inline-block;
+		line-height: 72px;
+
+	}
+}
+
+	.ots{
+		padding: 45px 95px 0 80px;
+	}
+
+.knop{
+	display: inline-block;
+	float: right;
+	.request{
+		border: 2px #fff solid;
+		width: 200px;
+		text-align: center;
+		padding:  13px 0;
+		margin-top: 5px;
+		border-radius: 50px;
+		display: inline-block;
+		cursor: pointer;
+
+		a{
+
+			color: #FFF;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-family: 'Poppins-Bold';
+			text-decoration: none;
+
+		}
+	}
+}
+	
+
+}
+/*_______________________________________________________*/
+
+.zag{
+	padding: 190px 0 0 0;
+	.gre{
+		color: #a7a8a8;
+	}
+	h2{
+		font-size: 24px;
+		text-align: center;
+		line-height: 42px;
+		font-family: 'Poppins-Bold';
+	}
+	h1{
+		font-size: 76px;
+		text-align: center;
+		font-family: 'Poppins-SemiBold';
+	}
+	
+}
+
+
+
+
+.cent{
+	padding: 50px 0 210px 0;
+	.gradient{
+		margin: 0 auto;
+		background-image: linear-gradient(to left, #282929, #444444);
+		height: 145px;
+		//width: 567px;
+		border-radius: 78px;
+		padding: 20px;
+
+
+
+		a{
+
+			text-align: center;
+			font-size: 24px;
+			text-transform: uppercase;
+			color: #fff;
+			cursor: pointer;
+
+
+			background-color: $green-color;
+			border-radius: 78px;
+			display: block;
+			padding: 34px;
+			font-family: 'Poppins-Bold';
+			text-decoration: none;
+
+		}
+
+	}
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+section.s_rewview{
+	background-color: #f4f8fc;
+	.zagol{
+		h3{
+			color: $green-color;
+			font-size: 16px;
+			text-align: center;
+			padding-top: 140px;
+			font-family: 'Poppins-Bold';
+
+
+		}
+		h2{
+			color: $black-color;
+			font-size: 42px;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom:40px ;
+			font-family: 'Poppins-Medium';
+		}
+	}
+	.text{
+		padding-bottom:  40px;
+		span{
+			color: $black-color;
+			font-size: 16px;
+			line-height: 30px;
+			font-family: 'Poppins-Light';
+
+		}
+	}
+
+	.line{
+		text-align: center;
+		border-top: 3px solid #dcdddd;
+		width: 70px;
+		padding-bottom:45px ;
+	}
+/*
+	.fon{
+		background-image: url(../img/mac.png);
+		background-repeat: no-repeat;
+		height: 460px;
+		background-position: center center;
+
+		} */
+		.vis{
+			padding-top: 15px;
+			.uz{
+				padding:0 40px;
+
+				.button2{
+					text-align: center;
+					font-size: 24px;
+					text-transform: uppercase;
+					color: #fff;
+					cursor: pointer;
+
+					background-color: $green-color;
+					border-radius: 78px;
+					display: block;
+					padding: 28px;
+					font-family: 'Poppins-Bold';
+					text-decoration: none;
+
+					-webkit-box-shadow: 0px 22px 22px 0px rgba(46, 50, 50, 0.29);
+					-moz-box-shadow:    0px 22px 22px 0px rgba(46, 50, 50, 0.29);
+					box-shadow:         0px 22px 22px 0px rgba(46, 50, 50, 0.29);
+				}
+			}
+		}
+
+		.ff{
+			background-image: url(../img/ff.png);
+			background-repeat: no-repeat;
+			padding-bottom: 100px;
+
+			.bot{
+				padding: 79px 0 0 0;
+
+
+
+
+
+
+
+				.fonno{
+					background-color: #fff;
+					padding:0;
+					margin-top: 65px;
+
+					.circle2{
+						background-color: $green-color;
+						height: 130px;
+						width: 130px;
+						border-radius:65px 65px;
+						position: active;
+						display: inline-block;
+						margin-top: -65px;
+					}
+
+					.pad{
+						padding: 0 80px;
+						p{
+							color: $black-color;
+							text-align: center;
+							line-height: 35px;
+							padding-top: 30px;
+							font-family: 'Poppins-Light';
+						}
+					}
+
+					.spa{
+						padding: 13px 0 75px 0;
+						font-size: 17px;
+						color: #000;
+						text-align: center;
+						font-weight: bold;
+						.gree{
+							color: $green-color;
+							text-align: right;
+							padding: 0 2px 0 0;
+							font-family: 'Poppins-Bold';
+						}
+						.bla{
+							text-align: left;
+							padding: 0;
+							font-family: 'Poppins-Bold';
+						}
+					}
+				}
+			}
+		}
+
+
+
+
+
+	}
+
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	section.zelen{
+		@include OneCenterGreen-fon;
+		.vis{
+			padding: 140px 0;
+			.our{
+				color: #fff;
+				font-size: 42px;
+				text-align: center;
+				padding-bottom: 35px;
+				font-family: 'Poppins-Medium';
+
+			}
+
+			.line{
+				border-top: 3px solid #fff;
+				width: 70px;
+				margin: 0;
+				padding-left: 10px;
+			}
+
+			.do{
+				text-align: center;
+				font-size: 17px;
+				padding-top: 43px;
+				line-height: 35px;
+				font-family: 'Poppins-Light';
+			}
+
+
+			.block{
+				background-color: #f4fcfc;
+				color: $black-color;
+				margin-top: 100px;
+				padding: 0 40px 45px 40px;
+				box-shadow:-1px 20px 36px -4px rgba(0,0,0,0.37);
+				-webkit-box-shadow:-1px 20px 36px -4px rgba(0,0,0,0.37);
+				-moz-box-shadow:-1px 20px 36px -4px rgba(0,0,0,0.37);
+				border-radius: 5px;
+
+
+				.krug1,.krug2,.krug3,.krug4,.krug5{
+					display: inline-block;
+					background-color: #fff;
+					width: 108px;
+					height: 108px;
+					margin-top: -54px;
+					position: active;
+					border-radius: 64px;
+
+
+				}
+
+				.krug1{
+					background-image: url(../img/znach1.png);
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+
+				.krug2{
+					background-image: url(../img/znach2.png);
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+
+				.krug3{
+					background-image: url(../img/znach3.png);
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+
+				.krug4{
+					background-image: url(../img/znach4.png);
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+
+				.krug5{
+					background-image: url(../img/znach5.png);
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+
+
+
+
+				.pip{
+					padding-top: 10px;
+					font-size: 24px;
+					line-height: 32px;
+					font-weight: bold;
+					font-family: 'Poppins-SemiBold';
+
+				}
+				.pip2{
+					padding-bottom: 25px;
+				}
+				p{
+					font-size: 17px;
+					margin: 0;
+					line-height: 29px;
+					font-family: 'Poppins-Light';
+				}
+			}
+		}
+	}
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	.cos{
+		background-color: #fefffe;
+		background-image: url(../img/koc.png);
+		background-position: top left;
+		background-repeat: no-repeat;
+
+
+
+
+		.vis{
+			padding: 140px 0;
+			.our{
+				color: $black-color;
+				font-size: 42px;
+				text-align: center;
+				padding-bottom: 35px;
+				font-family: 'Poppins-Medium';
+			}
+
+			.line{
+				border-top: 3px solid #dcdddd;
+				width: 70px;
+				margin: 0;
+				padding-left: 10px;
+			}
+
+			.do{
+				text-align: center;
+				font-size: 17px;
+				padding-top: 43px;
+				line-height: 35px;
+				color: #171818;
+				font-family: 'Poppins-Light';
+			}
+
+			.review_item1{
+
+
+
+				.right{
+					background-color: #fff;
+					padding: 0 40px;
+					border-left: 2px solid #dee1e4;
+					.circle{
+						height: 76px;
+						width: 76px;
+						background-color: $green-color;
+						border-radius: 50px;
+						margin:  65px 0 33px 0;
+						background-image: url(../img/mol.png);
+						background-repeat: no-repeat;
+						background-position: center center;
+					}
+					h2{
+						color: $black-color;
+						font-size: 24px;
+						padding-bottom: 16px;
+						font-family: 'Poppins-SemiBold';
+					}
+					span{
+						color: $black-color;
+						font-size: 17px;
+						line-height: 35px;
+						font-family: 'Poppins-Light';
+					}
+
+					ul{
+						margin:0px;
+						padding:72px 0 0 0;
+						list-style-type: none; /*убираем маркеры*/
+						li{
+							float: left;
+							padding: 0 5px 65px 0;
+
+
+
+							a{
+
+								display: block; /*делаем блоком*/
+								color:$black-color;
+								border: 1px #d7dbe0 solid;
+								cursor: pointer;
+								text-transform: uppercase;
+								padding: 2px 12px;
+								font-size: 11px;
+								border-radius: 21px;
+								font-weight: bold;
+								font-family: 'Poppins-SemiBold';
+
+							}
+						}
+					}
+
+
+				}
+			}
+		}
+
+	}
+
+
+	.shadow{
+		margin:15px 15px 30px 15px;
+		background-color: #fff;
+		-webkit-box-shadow: 3px 26px 30px 0px rgba(46, 50, 50, 1);
+		-moz-box-shadow:    3px 26px 30px 0px rgba(46, 50, 50, 1);
+		box-shadow:         3px 26px 30px 0px rgba(46, 50, 50, 1);
+	}
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	footer{
+		@include OneTopBotBlack-fon;
+		background-image: url(../img/hren2.png);
+		background-position: right top;
+		background-repeat: no-repeat;
+
+		.fon{
+			background-image: url(../img/hren.png);
+			background-position: left top;
+			background-repeat: no-repeat;
+		}
+
+		h2.our{
+			text-align: center;
+			font-size: 42px;
+			padding: 110px 0 33px 0;
+			font-family: 'Poppins-SemiBold';
+		}
+
+		.line{
+			border-top: 3px solid #fff;
+			width: 70px;
+			margin: 0;
+			padding:0 0 30px 10px;
+		}
+
+		form{
+			font-family: 'FontAwesome';
+
+
+		}
+
+		input{
+			text-indent: 21px; //делаем отступ в plaseholder для текста
+			background: transparent;
+			border: 2px solid #515252;
+			border-radius: 5px;
+			color: #fff;
+		//width: 618px;
+		margin-top: 15px;
+
+		&:focus{
+
+			outline: none; //убираем рамку при фокусе формы
+			
+		}
+	}
+	
+	.name, .email{
+		height:60px;
+		width: 616px;
+		margin-left: 10px;
+	}
+
+	.comment{
+		height: 215px;
+		width: 616px;
+		margin-left: 10px;
+	}
+
+
+	.vis{
+		padding-top: 15px;
+		.uz{
+			padding:35px 40px 135px 40px;
+
+			.button2{
+				text-align: center;
+				font-size: 24px;
+				text-transform: uppercase;
+				color: #fff;
+				cursor: pointer;
+
+				background-color: $green-color;
+				border-radius: 78px;
+				display: block;
+				padding: 28px;
+				font-family: 'Poppins-Bold';
+				text-decoration: none;
+
+			}
+
+			
+		}
+	}
+
+
+
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none; /*убираем маркеры*/
+
+
+
+		li{
+			display: inline-block;
+			
+
+			a{
+				text-transform: uppercase; /*делает текст капсом*/
+				color: #fff;
+				font-size: 14px;
+				padding: 0 0 0 30px;
+				display: block; /*делаем блоком*/
+				line-height: 70px; /*делает текст посредине*/
+				font-family: 'Poppins-Bold';
+
+
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+
+	ul.two{
+		margin: 0;
+		padding: 0;
+		list-style-type: none; /*убираем маркеры*/
+
+		li{
+			float: left;
+
+			a{
+				
+				padding: 0 15px;
+				display: block; /*делаем блоком*/
+				line-height: 70px; /*делает текст посредине*/
+				font-family: 'Poppins-Bold';
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+	.digital{
+		
+		background-image: url(../img/icon.png);
+		background-position: left center;
+		background-repeat: no-repeat;
+
+		h2{
+			font-size: 22px;
+			padding-left: 30px;
+			text-transform: uppercase;
+			color: #fff;
+			text-align: left;
+			line-height: 75px;
+			font-family: 'Oswald-BoldItalic';
+		}
+	}
+
+
+	.ots{
+		padding: 15px 69px 15px 69px;
+		border-top: 1px solid #515252;
+	}
+
+	
+	
+
+
+
+	.pravo{
+	//padding-left: 337px;
+	float: right;
+}
+
+
+
+}
+
+
+
+
+.second-car .owl-carousel .owl-nav {
+	display: inline-block;
+	margin-left: 475px;
+	position: absolute;
+	margin-top: 28px;
+
+}
+
+
+.second-car .owl-carousel .owl-nav button.owl-prev {
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	border: 1px solid #cdd1d5;
+	color: #000;
+	background-image: url(../img/left.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.second-car .owl-carousel .owl-nav button.owl-next{
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	border: 1px solid #cdd1d5;
+	color: #000;
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-left: 110px;
+}
+
+
+
+.second-car .owl-dots{
+	display: inline-block;
+	margin-left: 547px;
+	margin-top: 30px;
+	position: absolute;
+}
+
+.second-car .owl-carousel button.owl-dot{
+	width: 8px;
+	height: 8px;
+	background-color: #bbbfc2;
+	margin-right: 8px;
+	border-radius: 6px;
+
+	&.active{
+		background-color: $black-color;
+	}
+}
+
+
+
+/*--------------------------------------------------------------*/
+
+.first-car .owl-carousel .owl-nav {
+	display: inline-block;
+	margin-left: 475px;
+	position: absolute;
+	margin-top: 39px;
+
+}
+
+
+.first-car .owl-carousel .owl-nav button.owl-prev {
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	border: 1px solid #cdd1d5;
+	color: #000;
+	background-image: url(../img/left.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.first-car .owl-carousel .owl-nav button.owl-next{
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	border: 1px solid #cdd1d5;
+	color: #000;
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-left: 110px;
+}
+
+
+
+.first-car .owl-dots{
+	display: inline-block;
+	margin-left: 547px;
+	position: absolute;
+	margin-top: 41px;
+
+}
+
+.first-car .owl-carousel button.owl-dot{
+	width: 8px;
+	height: 8px;
+	background-color: #bbbfc2;
+	margin-right: 8px;
+	border-radius: 6px;
+
+	&.active{
+		background-color: $black-color;
+	}
+}
+
+
+.first-car .owl-carousel .owl-nav button.owl-next:focus , .first-car .owl-carousel .owl-nav button.owl-prev:focus , .second-car .owl-carousel .owl-nav button.owl-next:focus , .second-car .owl-carousel .owl-nav button.owl-prev:focus{
+	outline: none; //убираем рамку 
+}
+
+
+.first-car .owl-carousel button.owl-dot:focus , .second-car .owl-carousel button.owl-dot:focus{
+		outline: none; //убираем рамкку 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.mobile-menu {
+		display: none;
+		.menu-btm{
+			display: block;
+			width: 40px;
+			height: 40px;
+
+     .one, .two, .three {
+	width: 40px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 8px;
+} 
+
+	
+		}
+	}
+
+
+
+
+
+.ots .nav.menu-active{
+	display: block;
+  width: 100%;
+  height: 600px;
+  background-color: $green-color;
+ul{
+	padding-top: 70px;
+	li{
+		padding-top: 42px;
+		display: block;
+		float: none;
+		&.one{
+			border-top: 3px solid #35d680;
+			padding-top: 55px;
+			margin: 0 32px 0 80px;
+			padding-right: 50px;
+			margin-top: 37px;
+
+		}
+
+		a{
+			font-size: 24px;
+			text-align: center;
+		}
+
+	}
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+.center.menu-active .digital{
+	position: absolute;
+	margin-top: -591px;
+	margin-left: 208px;
+}
+
+.mobile-menu.menu-active{
+	display: inline-block;
+	width: 50px;
+  height: 100px;
+  position: absolute;
+  margin-left:  527px;
+  margin-top: -555px;
+ 
+  
+  	.two{
+  		opacity: 0;
+  	}
+
+  .one{
+  	transform: rotate(45deg);
+  	margin: 10px 0px 0px 1px;
+  	position: absolute;
+    width: 24px;
+  	animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  border-radius: 1px;
+  	
+  }
+  .three{
+  	transform: rotate(135deg);
+  	margin: 1px 1px 1px 1px;
+  	 width: 24px;
+  	animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+    border-radius: 1px;
+  }
+  
+}
+
+@keyframes anim{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ots.menu-active{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
