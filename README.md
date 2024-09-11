@@ -25,4 +25,4 @@
 
 ---
 Чтобы скачать себе данный проект, следуйте инструкции по ссылке: :point_down:
-https://github.com/Sergey-V0lkov/ProKurs/blob/main/INSTRUCTION.md
+https://github.com/Sergey-V0lkov/Digital_crafters/blob/main/INSTRUCTION.md
